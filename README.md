@@ -84,7 +84,7 @@ apps/
 ```
 
 - **Feature Files**: Write your Gherkin (`.feature`) scenarios in `features/`.
-- **Step Definitions**: Implement the test logic in `.steps.ts` files under `steps/`. You can use the existing `calculator.steps.ts` as a reference.
+- **Step Definitions**: Implement the test logic in `.steps.ts` files under `steps/`.
 - **Aditional Objects**: Feel free to structure any Page Object Model (POM) elements however you prefer.
 
 When you run `npm run cucumber` or `nx e2e my-calculator-workspace-e2e`, Nx will execute all scenarios in `features/` and use the step definitions in `steps/`.
@@ -95,7 +95,7 @@ When you run `npm run cucumber` or `nx e2e my-calculator-workspace-e2e`, Nx will
 
 1. Add some end-to-end tests in a way you believe is most efficient.
 
-2. You can use the sample feature scenarios in calculator.feature for inspiration and create your own step definitions. However, feel free to design new features if it suits your approach better.
+2. You can use the blank feature and step files as a starting point, but feel free to create your own approach if you prefer.
 
 3. Creating a Page Object Model (POM) to assist your tests is encouraged.
 
